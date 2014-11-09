@@ -5,6 +5,7 @@ var Counter = require('../lib/counter.js');
 
 describe('testing of Counter class and its methods', function() {
   var counter = new Counter();
+  
   it('should be zero when object is instantiated', function() {
     expect(counter.count).to.be.eql(0);
   });
