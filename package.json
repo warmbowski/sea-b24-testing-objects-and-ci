@@ -2,15 +2,21 @@
   "name": "sea-b24-testing-objects-and-ci",
   "version": "1.0.0",
   "description": "Assignment for testing objects and ci with travis",
-  "main": "server.js",
-  "scripts": {
+  "main": "index.js",
+  "directories": {
     "test": "test"
-  },
-  "author": "Paul Laskowski",
-  "license": "MIT"
   },
   "scripts": {
     "test": "node_modules/grunt-cli/bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codefellows/sea-b24-testing-objects-and-ci.git"
+  },
+  "author": "paul@warmbowski.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codefellows/sea-b24-testing-objects-and-ci/issues"
   },
   "homepage": "https://github.com/codefellows/sea-b24-testing-objects-and-ci",
   "devDependencies": {
