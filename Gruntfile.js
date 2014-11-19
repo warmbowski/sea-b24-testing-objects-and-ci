@@ -14,14 +14,14 @@ module.exports = function(grunt) {
     },
 
     jscs: {
-      src: 'lib/**/*.js',
+      src: ['lib/**/*.js', 'test/**/*.js'],
       options: {
         config: '.jscsrc'
       }
     },
 
     simplemocha: {
-      src: ['test/**/*.js']
+      src: ['lib/**/*.js', 'test/**/*.js']
     }
   });
   grunt.registerTask('test', ['jshint', 'jscs', 'simplemocha']);
